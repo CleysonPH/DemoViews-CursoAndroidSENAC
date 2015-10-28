@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.senac.pi.demoviews" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -41,6 +41,11 @@
         <activity
             android:name=".ProgressDialogDemoActivity"
             android:label="@string/title_activity_progress_dialog_demo"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AlertDialogDemoActivity"
+            android:label="@string/title_activity_alert_dialog_demo"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>

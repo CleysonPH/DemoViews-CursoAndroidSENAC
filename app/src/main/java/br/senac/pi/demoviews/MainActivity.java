@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnImageButtonDemo).setOnClickListener(abrirImageButton());
         findViewById(R.id.btnCheckbox).setOnClickListener(abrirCheckBoxToggleButtonActivity());
         findViewById(R.id.btnProgressDiologDemo).setOnClickListener(abrirProgressDialogDemoActivity());
+        findViewById(R.id.btnAlertDialogActivity).setOnClickListener(abrirAlertDialogActivity());
     }
 
     private View.OnClickListener abrirTextViewDemo() {
@@ -87,6 +88,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ProgressDialogDemoActivity.class);
+                startActivity(intent);
+            }
+        };
+    }
+
+    private View.OnClickListener abrirAlertDialogActivity(){
+        return new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, AlertDialogDemoActivity.class);
                 startActivity(intent);
             }
         };

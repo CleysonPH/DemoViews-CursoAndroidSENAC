@@ -58,4 +58,10 @@
         android:layout_height="wrap_content"
         android:text="ProgressDialog demo"/>
 
+    <Button
+        android:id="@+id/btnAlertDialogActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog e Toast"/>
+
 </LinearLayout>
