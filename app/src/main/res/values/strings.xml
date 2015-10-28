@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoViews</string>
+    <string name="title_activity_edit_text_demo">EditTextDemo</string>
+    <string name="title_activity_auto_complete_demo">AutoCompleteDemo</string>
+    <string name="title_activity_check_box_toggle_button">CheckBoxToggleButtonActivity</string>
+    <string name="title_activity_progress_dialog_demo">ProgressDialogDemoActivity</string>
+</resources>
