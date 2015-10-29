@@ -48,6 +48,11 @@
             android:label="@string/title_activity_alert_dialog_demo"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".ScrollViewDemoActivity"
+            android:label="@string/title_activity_scroll_view_demo"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

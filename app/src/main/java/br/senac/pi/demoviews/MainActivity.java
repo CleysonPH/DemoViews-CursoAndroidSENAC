@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnCheckbox).setOnClickListener(abrirCheckBoxToggleButtonActivity());
         findViewById(R.id.btnProgressDiologDemo).setOnClickListener(abrirProgressDialogDemoActivity());
         findViewById(R.id.btnAlertDialogActivity).setOnClickListener(abrirAlertDialogActivity());
+        findViewById(R.id.btnScrollViewDemo).setOnClickListener(abrirScrollViewDemoActivity());
     }
 
     private View.OnClickListener abrirTextViewDemo() {
@@ -98,6 +99,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, AlertDialogDemoActivity.class);
+                startActivity(intent);
+            }
+        };
+    }
+
+    private View.OnClickListener abrirScrollViewDemoActivity(){
+        return new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ScrollViewDemoActivity.class);
                 startActivity(intent);
             }
         };
